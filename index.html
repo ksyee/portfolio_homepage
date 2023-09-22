@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e05373b4ec.js"
+      crossorigin="anonymous"></script>
+    <title>KSY Portfolio Homepage</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,500;8..144,700;8..144,900&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="./css/main.css" />
+  </head>
+
+  <body class="font-noto-sans-kr">
+    <!-- header -->
+    <header
+      class="fixed top-0 left-0 w-full px-16pxr z-50"
+      id="header">
+      <div class="flex justify-between items-center">
+        <h1
+          class="font-ubuntu text-32pxr text-primary-color-4 font-bold select-none">
+          ksyee.
+        </h1>
+        <div class="absolute left-1/2 -translate-x-1/2">
+          <ul class="flex space-x-28pxr text-primary-color-3">
+            <li>
+              <h3 class="uppercase">about</h3>
+            </li>
+            <li>
+              <h3 class="uppercase">skill</h3>
+            </li>
+            <li>
+              <h3 class="uppercase">project</h3>
+            </li>
+          </ul>
+        </div>
+        <a
+          href="https://github.com/ksyee"
+          target="_blank"
+          ><i class="fa-brands fa-github fa-2xl text-primary-color-4"></i>
+        </a>
+      </div>
+    </header>
+
+    <!-- main banner section -->
+    <section
+      class="relative justify-center items-center bg-primary-color-1"
+      id="main-banner">
+      <div
+        class="absolute top-1/3 left-1/2 font-roboto-flex text-primary-color-4 rounded-sm select-none"
+        id="main-banner-text">
+        <h2 class="text-28pxr font-semibold text-center drop-shadow-lg">
+          계획은 신중히 <br />
+          실행은 빠르게
+        </h2>
+        <span
+          class="block w-40pxr h-4pxr mx-auto my-12pxr bg-primary-color-3 rounded"></span>
+        <div class="text-16pxr text-center">
+          안녕하십니까 프론트엔드 개발자를 목표로 <br />
+          열심히 공부하고 있는 <span class="font-bold">강선영</span>입니다.
+          <br />
+          방문해주셔서 감사합니다.
+        </div>
+      </div>
+      <button
+        id="scroll-down-btn"
+        class="absolute left-1/2 bottom-80pxr">
+        <i
+          class="fa-solid fa-chevron-down fa-2x text-primary-color-4 animate-bounce"></i>
+      </button>
+    </section>
+
+    <!-- skill section -->
+    <section
+      id="skill"
+      class="relative flex justify-around pt-16pxr pb-52pxr text-primary-color-1 bg-slate-50">
+      <div>
+        <!-- skill section title -->
+        <div class="flex justify-center items-center mb-16pxr space-x-8pxr">
+          <i class="fa-solid fa-code text-24pxr"></i>
+          <h3 class="font-roboto-flex text-28pxr uppercase drop-shadow-lg">
+            skill
+          </h3>
+        </div>
+        <div class="flex space-x-64pxr text-20pxr">
+          <!-- skill box1 -->
+          <div class="px-16pxr py-20pxr bg-primary-color-4 rounded">
+            <div>
+              <h4
+                class="text-20pxr font-bold text-primary-color-1 tracking-widest capitalize">
+                basic
+              </h4>
+              <span
+                class="block w-full mt-4pxr border-b border-primary-color-2"></span>
+            </div>
+            <div class="mt-16pxr space-y-16pxr">
+              <div class="flex space-x-4pxr uppercase">
+                <img
+                  src="./images/html_icon.svg"
+                  alt="html icon"
+                  width="20" />
+                <span class="drop-shadow-lg leading-18pxr">html</span>
+              </div>
+              <div class="flex space-x-4pxr uppercase">
+                <img
+                  src="./images/css3_icon.svg"
+                  alt="css3 icon"
+                  width="20" />
+                <span class="drop-shadow-lg leading-18pxr">css</span>
+              </div>
+              <div class="flex space-x-4pxr capitalize">
+                <img
+                  src="./images/javascript_icon.svg"
+                  alt="javascript icon"
+                  width="20" />
+                <span class="drop-shadow-lg leading-18pxr">javascript</span>
+              </div>
+            </div>
+          </div>
+          <!-- skill box2 -->
+          <div class="px-16pxr py-20pxr bg-primary-color-4 rounded">
+            <div>
+              <h4 class="text-20pxr font-bold tracking-widest capitalize">
+                framework
+              </h4>
+              <span
+                class="block w-full mt-4pxr border-b border-primary-color-2"></span>
+            </div>
+            <div class="mt-16pxr space-y-16pxr">
+              <div class="flex space-x-4pxr capitalize">
+                <img
+                  src="./images/react_icon.svg"
+                  alt="react icon"
+                  width="20" />
+                <span class="drop-shadow-lg leading-18pxr">react</span>
+              </div>
+              <div class="flex space-x-4pxr capitalize">
+                <img
+                  src="./images/redux_icon.svg"
+                  alt="redux icon"
+                  width="20" />
+                <span class="drop-shadow-lg leading-18pxr">redux</span>
+              </div>
+              <div class="flex space-x-4pxr capitalize">
+                <img
+                  src="./images/sass_icon.svg"
+                  alt="sass icon"
+                  width="20" />
+                <span class="drop-shadow-lg leading-18pxr">sass</span>
+              </div>
+              <div class="flex space-x-4pxr capitalize">
+                <img
+                  src="./images/tailwindcss_icon.svg"
+                  alt="tailwindcss icon"
+                  width="20" />
+                <span class="drop-shadow-lg leading-18pxr">tailwindcss</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- source -->
+      <div class="absolute bottom-8pxr right-16pxr text-12pxr">
+        <span>icons by</span>
+        <a
+          href="https://icons8.kr/"
+          target="_blank"
+          class="underline"
+          >icons8</a
+        >
+      </div>
+    </section>
+
+    <section id="project">
+      <h3 class="font-roboto-flex text-28pxr uppercase drop-shadow-lg">
+        project
+      </h3>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
+      integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
